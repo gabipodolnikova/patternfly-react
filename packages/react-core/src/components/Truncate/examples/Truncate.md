@@ -12,9 +12,9 @@ beta: true
 import React from 'react';
 import { Truncate } from '@patternfly/react-core';
 
-<div style={{ width: '200px' }}>
+<div style={{ maxWidth: '300px' }}>
   <Truncate
-    content={'The quick brown fox jumps over the lazy dog'}
+    content={'The quick brown fox jumps over the lazy dog.'}
     position={'end'}
   />
 </div>
@@ -25,9 +25,9 @@ import { Truncate } from '@patternfly/react-core';
 import React from 'react';
 import { Truncate } from '@patternfly/react-core';
 
-<div style={{ width: '200px' }}>
+<div style={{ maxWidth: '300px' }}>
   <Truncate
-    content={'The quick brown fox jumps over the lazy dog'}
+    content={'The quick brown fox jumps over the lazy dog.'}
     position={'start'}
   />
 </div>
@@ -38,9 +38,9 @@ import { Truncate } from '@patternfly/react-core';
 import React from 'react';
 import { Truncate } from '@patternfly/react-core';
 
-<div style={{ width: '200px' }}>
+<div style={{ maxWidth: '300px' }}>
   <Truncate
-    content={'The quick brown fox jumps over the lazy dog'}
+    content={'The quick brown fox jumps over the lazy dog.'}
     position={'middle'}
   />
 </div>
